@@ -30,8 +30,8 @@ BG0AUB 中国HAM，QTH:NN33   .从2019年2月开始对QO100同步卫星转发器
 3：adf4351频率基准没有使用GPSDO,使用了可以微调的OCXO,便于微调频率误差。
 
 
-![avatar](/image/8.png)
-![avatar](/image/9.png)
+![avatar](/image/1-1.png)
+![avatar](/image/1-2.png)
 
 
 目前的设计还是一个原始验证型，只是经过很短时间的测试。可能有一些未知的错误。仅供参考
