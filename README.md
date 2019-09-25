@@ -1,4 +1,5 @@
-# ESHAIL2-QO100-Simple-Frequency-Converter
+# Eshail2-QO100-Simple-Frequency-Converter
+   Eshail2 QO100 简易频率转换器
 
 ## 背景资料：
 BG0AUB 中国HAM，QTH:NN33   .从2019年2月开始对QO100同步卫星转发器产生兴趣，经过一些准备，在2月24日在QO100与FA3FYM完成了第一个QSO.当时使用的设备为limesdr mini+移动通讯基站改装的2.4G功放。经过半年的摸索,尝试设计制作了这个工作在QO100的上行频率转换器（集成LNB基准产生，自动检测PTT控制。只需一根馈线连接到频率变换器即可工作）实现一根馈线直连电台输出直连馈源LNB即可工作。
