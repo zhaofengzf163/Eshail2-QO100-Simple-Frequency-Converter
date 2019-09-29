@@ -1,4 +1,4 @@
-# Eshail2-QO100-Simple-Frequency-Converter
+﻿# Eshail2-QO100-Simple-Frequency-Converter
    Eshail2 QO100 简易频率转换器
 
 ## 背景资料：
@@ -45,5 +45,7 @@ BG0AUB 中国HAM，QTH:NN33   .从2019年2月开始对QO100同步卫星转发器
 ![avatar](image/2-6.jpg)
 ![avatar](/image/2-7.jpg)
 ![avatar](/image/2-8.jpg)
+20190929
+根据昨晚测试情况，RX回路衰减器重新调整为20db。LNB基准增加了10db衰减器。LNB基准幅度目前为-5DB。
 待续。。。。。
 
