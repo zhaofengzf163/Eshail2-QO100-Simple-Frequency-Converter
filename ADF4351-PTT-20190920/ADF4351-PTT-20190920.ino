@@ -45,7 +45,7 @@
   r5 = 0X580005;
 
   20190330 修改了外部基准由gpsdo输入。10M  增加了PTT输入 RX/TX切换输出   by BG0AUB
-  
+
   20190920 修改了ADF4351控制数据，rx=51.584625 tx=1969.501 增加了PTT延时。rx/tx切换指示 by BG0AUB
 *////////////////////////////////////////////////////////////////////////////////////////////////////
 // PLL registers
@@ -90,18 +90,11 @@ void setup ()
   delay(500);
 
 
-//  //10M基准 1969.501M
-//  write2PLL(0XBC803C & 0xffffffdf);  //关闭输出
-//  write2PLL(0X580005);
-//  write2PLL(0X928034);
-//  write2PLL(0X4B3);
-//  write2PLL(0X8E42);
-//  write2PLL(0X800CE21);
-//  write2PLL(0X189BE88);
-//  delayMicroseconds(500);
+  //  //10M基准 1969.501M
   write2PLL(0XBC803C & 0xffffffdf);  //关闭输出
   write2PLL(0X580005);
-  write2PLL(0XE5002C);
+  // write2PLL(0XE5002C); //+2DB
+  write2PLL(0XE500FC);   //+5DB
   write2PLL( 0X4B3);
   write2PLL(0X4E42);
   write2PLL(0X800A711);
@@ -113,11 +106,12 @@ void setup ()
 void loop()
 { if (digitalRead(RX_TX) == 1)
   { if (RX_P == 0)
-    {delay(700);
+    { delay(700);
       //10M基准       51.584625 LNB REF
       write2PLL(0XBC803C & 0xffffffdf);  //关闭输出
       write2PLL(0X580005);
-      write2PLL(0XE5002C);
+      // write2PLL(0XE5002C); //+2DB
+      write2PLL(0XE500FC);   //+5DB
       write2PLL( 0X4B3);
       write2PLL(0X4E42);
       write2PLL(0X800A711);
