@@ -59,8 +59,11 @@ LNB基准adf4351设置-4db。使用SBA5089效果很好
 20200109
 测试了使用MRF21085的版本。输出功率>46dbm，前置放大器使用SBB5189+AH1+FLL357.更换了插损跟小的村田滤波器，前级增益达到了38db 后级增益13db
 目前所有的微带匹配已经经过优化，只需要少量的调试即可达到设计指标。
-![avatar](/mrf21045.jpg)
+
+![avatar](/image/mrf21085.jpg)
+
 ![avatar](/image/33dbm.jpg)
+
 ![avatar](/image/46dbm.jpg)
 待续。。。。。
 
